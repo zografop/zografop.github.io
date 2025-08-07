@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Ioannis (Yannis) Zografopoulos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Added this for the dropdown menu -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  <!-- END of Added this for the dropdown menu -->
+
+
+</head>
+<body>
+
+<style>
+  @keyframes blink {
+     0% {
+        opacity: 1;
+     }
+     50% {
+        opacity: 0;
+     }
+     100% {
+        opacity: 1;
+     }
+  }
+  #blinking-text {
+     animation: blink 3s infinite;
+  }
+  span {
+     color: red;
+  }
+</style>
+
+<title>Student Profile</title>
+<style>
+.student-profile {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px; <!- 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 2px solid #ccc;
+}
+
+.bio {
+  flex: 1;
+}
+
+.bio h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.bio p {
+  margin: 10;
+  line-height: 1.4;
+}
+</style>
+
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html#publications"  >Publications</a></li>
+                  <li><a href="index.html#achievements"  >Achievements and Awards</a></li>
+                  <li><a href="index.html#miscellaneous" >Miscellaneous</a></li>
+				  <li><a href="./Ioannis_Zografopoulos_CV_20_Feb_2025.pdf" target="_blank">CV</a></li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="ENGIN344.html">ENGIN 344</a></li>
+                        <li><a class="dropdown-item" href="ENGIN444.html">ENGIN 444</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="lab.html">Lab Capabilities</a></li> 
+                  <li><a href="people.html">People</a></li> 
+                  <li><a href="vacancies.html">Vacancies</a></li> 
+                  <li><a href="contact.html">Contact</a></li>
+
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" >
+                
+                <!-- Main Image -->
+                <center><img class="img-responsive" src="./ICARUS_logo.png" width="300" alt=""><br> </center>
+                <center><h3><p id="blinking-text"> Check the <a href="vacancies.html" target="_blank">Vacancies</a> for available positions! </p></h3></center>   
+
+                <div class="student-profile">
+                    <img class="headshot" src="./ICARUS_logo.png" alt="Lab logo">
+                    <div class="bio">
+                      <h2><strong>Research in Real‑Time Power System Simulation</strong></h2>
+
+                        <p></p>    
+
+                        <p></p>
+                        
+                        <p></p>
+
+                        <p> </p>
+                    </div>
+                </div>          
+        <!--    
+                <div style="margin-top:3%; text-align:justify;">   
+					<p><b>PI Ioannis Zografopoulos</b> is an assistant professor in the <a href="https://www.umb.edu/science-mathematics/academic-departments/engineering/" target="_blank">Engineering Department</a> of the College of Science and Mathematics at the University of Massachusetts (<a href="https://www.umb.edu/" target="_blank">UMass</a>) Boston. He is the principal investigator (PI) of the Infrastructure Cybersecurity and Resilience Laboratory (ICARUS). He received his Ph.D. in Electrical and Computer Engineering from King Abdullah University of Science and Technology (<a href="https://www.kaust.edu.sa/en" target="_blank">KAUST</a>) in 2023. Prior, he graduated with B.Eng. and M.Eng. degrees in Computer, Communications, and Network Engineering, and an M.Sc. degree in Electrical and Computer Engineering from the University of Thessaly, Volos, Greece, in 2014 and 2015, respectively. 
+
+                    <p>His research interests include cyber-physical systems security, with an emphasis on embedded systems for industrial, distributed energy, and power grid applications. </p>
+					
+					<p>He is an <b>Associate Editor</b> for the <a href="https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics" target="_blank"> IEEE Transactions on Industrial Informatics</a> and the <b>Chair</b> of IEEE PES <a href="https://cmte.ieee.org/pes-rsei/" target="_blank">Task Force on Resilient and Secure Large-Scale Energy Internet Systems</a>. </p>
+
+                    <p>Furthermore, he is a member of IET, an IEEE and IEEE PES member and has served as a reviewer for the IEEE Transactions on Power Systems, IEEE Transactions on Smart Grid, IEEE Transactions on Industrial Informatics, IEEE Systems Journal, IEEE Transactions on Information Forensics & Security, IEEE Transactions on Transportation Electrification, IEEE Internet of Things Journal, IEEE Access, IEEE SmartGridComm, IET Smart Grid, IET Generation, Transmission & Distribution, and other IEEE and ACM conferences and journals. </p>
+                </div>              -->         
+            </div> 
+
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>PI: Ioannis (Yannis) Zografopoulos</b></div>
+                <br><div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>Assistant Professor</b></div>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>University of Massachusetts (<a href="https://www.umb.edu/directory/izografopoulos/" target="_blank">UMass</a>) Boston</b></div>
+                <br><p><b>zografop [at] gmail [dot] com</b><br>
+                <p><b>i [dot] zografopoulos [at] umb [dot] edu</b></p>
+            </div>
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <p><h2>Education Profile </h2>
+                <!-- <b>Ph.D. Candidate</b> in Electrical and Computer Engineering, <br>
+                Florida State University, USA, 2019 - 2021<br>
+                <br> -->
+                <b>Ph.D.</b> in Electrical and Computer Engineering,<br>
+                King Abdullah University of Science and Technology<br>
+                Thuwal, Saudi Arabia, 2023 <br>
+                <br>
+                <!-- <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Ioannis (Yannis) Zografopoulos</b></div><br>
+                <p><b>john at doe.com</b><br> 
+                -->
+                <b>M.Sc.</b> in Electrical and Computer Engineering, <br>
+                University of Thessaly, Greece, 2015<br>
+                <br>
+                <b>B.Eng.</b> and <b>M.Eng. </b> in Computer, Communications, & Network Engineering, <br>
+                University of Thessaly, Greece, 2014<br>
+                </p>
+            </div>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-2" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com/citations?user=ldQPhIwAAAAJ&hl=en" target="_blank">Google Scholar</a></dd>
+              <dd><a href="https://www.scopus.com/authid/detail.uri?authorId=57218846474" target="_blank">Scopus</a></dd> 
+              <dd><a href="https://orcid.org/0000-0002-0453-4347" target="_blank">ORCID</a></dd>
+              <dd><a href="https://www.webofscience.com/wos/author/record/2396342" target="_blank">Publons</a></dd> 
+              <dd><a href="https://dblp.org/pid/270/1827.html" target="_blank">DBLP</a></dd> 
+              <!-- <dd><a href="https://www.researchgate.net/profile/Ioannis-Zografopoulos" target="_blank">ResearchGate</a></dd>  -->
+              <!-- <dd><a href="https://arxiv.org/search/cs?searchtype=author&query=Zografopoulos%2C+I" target="_blank">ArXiv</a></dd> -->
+              <!-- <dd><a href="https://twitter.com/zografop" target="_blank">Twitter</a></dd> -->
+              <!-- <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank"><i class="fa fa-twitter"></i></a></dd> -->
+              <!-- <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank">LinkedIn</a></dd> -->
+              <!-- <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank"><i class="fa fa-linkedin"></i></a></dd> -->
+              <!-- <dd><a href="https://researchid.co/zografop" target="_blank">ResearchID</a></dd> -->
+              <!-- <dd><a href="https://cemse.kaust.edu.sa/sentry/people/person/zografopoulos" target="_blank">Zografopoulos @ SENTRY</a></dd> -->
+
+            </div>
+
+
+            <!-- Links on the Sidebar - I split them into two columns to aling better with the Bio Info --> 
+            <div class="col-md-2" style="margin-top:2%">
+              <!-- <dd><a href="https://scholar.google.com/citations?user=ldQPhIwAAAAJ&hl=en" target="_blank">Google Scholar</a></dd> -->
+              <!-- <dd><a href="https://www.scopus.com/authid/detail.uri?authorId=57218846474" target="_blank">Scopus</a></dd> -->
+              <!-- <dd><a href="https://orcid.org/0000-0002-0453-4347" target="_blank">ORCID</a></dd> -->
+              <!-- <dd><a href="https://www.webofscience.com/wos/author/record/2396342" target="_blank">Publons</a></dd> -->
+              <!-- <dd><a href="https://dblp.org/pid/270/1827.html" target="_blank">DBLP</a></dd> -->
+              <!-- <dd><a href="https://www.researchgate.net/profile/Ioannis-Zografopoulos" target="_blank">ResearchGate</a></dd> -->
+              
+              <dd><a href="https://arxiv.org/search/cs?searchtype=author&query=Zografopoulos%2C+I" target="_blank">ArXiv</a></dd>
+              <dd><a href="https://twitter.com/zografop" target="_blank">Twitter</a></dd>
+              <!-- <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank"><i class="fa fa-twitter"></i></a></dd> -->
+              <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank">LinkedIn</a></dd>
+              <!-- <dd><a href="https://www.linkedin.com/in/zografop/" target="_blank"><i class="fa fa-linkedin"></i></a></dd> -->
+              <dd><a href="https://www.researchgate.net/profile/Ioannis-Zografopoulos" target="_blank">ResearchGate</a></dd>
+              <dd><a href="https://researchid.co/zografop" target="_blank">ResearchID</a></dd>
+              <!-- <dd><a href="https://cemse.kaust.edu.sa/sentry/people/person/zografopoulos" target="_blank">Zografopoulos @ SENTRY</a></dd> -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Graduate Students -->
+        <!--    
+            <div class="col-md-8">    
+            <h2 id="achievements">Graduate Students</h2>
+
+                <ul>
+                    <li>Undergraduate student mentor for the <a href="https://www.umass.edu/diversitysciences/programs/sloan-student-fellows-program" target="_blank">Sloan Student Fellows Program</a>, Jun 2024</li> 
+                    <li><strong>Chair</strong> of IEEE PES <a href="https://cmte.ieee.org/pes-rsei/" target="_blank">Task Force on Resilient and Secure Large-Scale Energy Internet Systems</a>, May 2024</li> 
+                    <li>Grant recipient for <a href="https://aspiringpi.cs.uchicago.edu/" target="_blank"> NSF's SaTC Aspiring PI Workshop</a>, Mar 2024</li>
+                    <li>Briefing presentation at <a href="https://blackhatmea.com/session/lights-cameras-hacktion-load-altering-attacks-unleashed" target="_blank"> Black Hat</a>, Nov 2023</li>
+                    <li>Tutorial presentation at <a href="https://sgc2023.ieee-smartgridcomm.org/program/tutorials" target="_blank"> IEEE SmartGridComm</a>, Oct 2023</li> 
+                    <li>Ph.D. dissertation defense, Jul 2023</li>
+                    <li><a href="https://www.csaw.io/_files/ugd/acbc49_89c4825e80544501933373f65d681cc1.pdf" target="_blank"> <strong>1<sup>st</sup></strong>&nbsp;<strong>place</strong></a> at <a href="https://www.csaw.io/hack-my-robot" target="_blank"> Cyber Security Awareness Week - Hack My Robot Challenge (CSAW-HMR)</a>, Nov 2022</li>
+                    <li>Finalist at Cyber Security Awareness Week - Capture The Flag  (CSAW-CTF), Nov 2022</li>
+                    <li><a href="https://www.blackhat.com/us-22/" target="_blank"> Black Hat USA </a> student scholarship, Aug 2022</li>
+                </ul>
+
+            </div>
+        -->    
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Lab Capabilities -->
+            <div class="col-md-8">    
+                <h2 id="students">ICARUS Lab Research Capabilities</h2>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Kerd.jpg" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Real‑Time Power System and Hardware-in-the-loop Simulation</a></strong></h2>
+                      <p></p>
+
+                      <p></p>
+                    </div>
+                </div>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Suraj.png" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Network Cosimulation and Communication Infrastructure Screening</strong></h2>
+                      <p> </p>
+                    </div>
+                </div>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Colin.jpeg" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Vulnerability Analysis and Cyberattack Impact Assessment</strong></h2>
+                      <p> </p>
+                      <p> </p>
+                    </div>
+                </div>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Elda.jpeg" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Cybersecurity Mitigations and Layered Defense Strategies</strong></h2>
+                      <p> </p> 
+                      <p> </p>
+                    </div>
+                </div>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Colin.jpeg" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Cyber-Physical Energy Systems Resilience and Restoration</strong></h2>
+                      <p> </p>
+                      <p> </p>
+                    </div>
+                </div>
+
+                <div class="student-profile">
+                    <img class="headshot" src="./Members/Isaac.jpeg" alt="Student Headshot">
+                    <div class="bio">
+                      <h2><strong>Training and Education</strong></h2>
+                      <p></p> 
+                    </div>
+                </div>
+
+            <!--  
+                <strong>Past</strong><br/>
+                <ul>
+
+
+                    <li><strong><a href="https://www.linkedin.com/in/kerdtopallaj" target="_blank">Kerd Topallaj</a></strong>, Electrical Engineering, UMass Boston</li>
+                    <li><strong>Suraj Ramanathan</strong>, Electrical Engineering, UMass Boston</li> 
+                    <li><strong>Colin J. Mckerrell</strong>, Electrical Engineering, UMass Boston</li>
+                    <li><strong>Elda Ramirez</strong>, Electrical Engineering, UMass Boston, <a href="./Posters/PMU_Optimization_Poster.pdf" target="_blank"> [Poster] </a> <a href="./Slides/PMU_Optimization_Slides.pdf" target="_blank"> [Slides] </a></li> 
+                    <li><strong>Isaac Marzuca</strong>, Electrical Engineering, UMass Boston</li> 
+
+                </ul>
+            -->
+
+            <!--
+                <strong>Alumni</strong><br/>
+                <ul>
+                    <li>K. Katuri, <strong>I. Zografopoulos</strong>, H. T. Nguyen, C. Konstantinou. <a href="https://arxiv.org/pdf/2304.07513.pdf" target="_blank">"Experimental Impact Analysis of Cyberattacks in Power Systems using Digital Real-Time Testbeds".</a> In: 2023 IEEE PowerTech Belgrade. IEEE, 2023.</li>
+
+                    <li>I. Shafkat, <strong>I. Zografopoulos</strong>, Md T. Hossain, S. Badsha, C. Konstantinou. <a href="https://arxiv.org/pdf/2207.00154.pdf" target="_blank">"A resource allocation scheme for energy demand management in 6G-enabled smart grid".</a> In: 2023 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), pp. 1-5. IEEE, 2023.</li>
+                </ul>
+            -->
+            <!--
+                <strong>Workshops</strong><br/>
+                <ul>
+                    <li><strong>I. Zografopoulos</strong>, C. Konstantinou, N. G. Tsoutsos, D. Zhu, R. Broadwater,<a href="https://arxiv.org/pdf/2102.03215.pdf" target="_blank">"Security Assessment and Impact Analysis of Cyberattacks in Integrated T&D Power Systems".</a> In: 9th Workshop on Modeling and Simulation of Cyber-Physical Energy Systems, pp. 1-7, 2021.</li>
+
+
+                    <li>J. Ospina, <strong>I. Zografopoulos</strong>, X. Liu, C. Konstantinou, <a href="https://dl.acm.org/doi/10.1145/3411498.3422926" target="_blank">"DEMO: Trustworthy Cyberphysical Energy Systems: Time-Delay Attacks in a Real-Time Co-Simulation Environment".</a> In: 2020 Joint Workshop on CPS&IoT Security and Privacy (CPSIoTSec), pp. 69, 2020.</li>
+                </ul>
+            -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8">
+                <br>
+                <!--<center><img class="img-responsive" href="https://www.google.com" src="./ICARUS_logo.png" width="300" alt=""><br> </center> -->
+                <center><a href="index.html"> <img src="./ICARUS_logo.png" width="300"> </a></center>
+            </div>  
+        </div>
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
+
+
